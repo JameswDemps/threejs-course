@@ -6,6 +6,8 @@ const geometry = new THREE.BoxGeometry(1, 1, 1)
 const material =  new THREE.MeshBasicMaterial({ color: 'red' })
 const mesh = new THREE.Mesh(geometry, material)
 
+mesh.position.x = 2
+
 scene.add(mesh)
 
 // Sizes
